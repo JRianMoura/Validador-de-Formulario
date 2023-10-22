@@ -26,6 +26,15 @@ body {
   border-radius: 10px;
 }
 
+span {
+  margin-left: 5px;
+  font-size: 18px;
+  line-height: 20px;
+  color: #6c6a71;
+
+}
+
+
 @media screen and (max-width: 640px){
   .container{
     width: 500px;
@@ -36,8 +45,8 @@ body {
   .container{
     width: 350px;
   }
-  .container ul{
-    font-size: 16px;
+  .container span{
+    font-size: 14px;
   }
 
 }
