@@ -13,21 +13,20 @@
 
   <section class="container">
     <h1>Formulário de cadastro</h1>
-    <p>Nenhum campo pode estar vazio</p>
     
     <form action="/" method="POST" class='formulario'>
       <label>Nome</label>
-      <input type="text" class="nome validar">
+      <input type="text" class="nome validar" required>
       <label>Sobrenome</label>
-      <input type="text" class="sobrenome validar">
+      <input type="text" class="sobrenome validar" required>
       <label>CPF</label>
-      <input type="text" class="cpf validar">
-      <label>Usuário <span>(Usuário só poderá conter letras e/ou números e deverá ter entre 3 e 12 caracteres)</span></label>
-      <input type="text" class="usuario validar">
-      <label>Senha <span>(Senha precisa ter entre 6 e 12 caracteres)</span></label>
-      <input type="password" class="senha validar">
+      <input type="text" class="cpf validar" maxlength="11" required>
+      <label>Usuário <span>(Só poderá conter letras e/ou números e deverá ter entre 3 e 12 caracteres)</span></label>
+      <input type="text" class="usuario validar" required>
+      <label>Senha <span>(Precisa ter entre 6 e 12 caracteres)</span></label>
+      <input type="password" class="senha validar" required>
       <label>Repetir Senha</label>
-      <input type="password" class="repetir-senha validar">
+      <input type="password" class="repetir-senha validar" required>
       <button type="submit">Enviar</button>
 
     </form>

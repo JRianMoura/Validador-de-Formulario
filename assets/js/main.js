@@ -96,7 +96,7 @@ class ValidaFormulario {
     }
     return true;
   }
-
+  
   criaErro(campo, msg) {
     const div = document.createElement("div");
     div.innerHTML = msg;
