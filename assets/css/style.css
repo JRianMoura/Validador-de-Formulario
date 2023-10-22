@@ -36,6 +36,10 @@ body {
   .container{
     width: 350px;
   }
+  .container ul{
+    font-size: 16px;
+  }
+
 }
 
 form input, form label, form button {
